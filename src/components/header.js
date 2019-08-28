@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Image from "../components/image"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -16,6 +17,9 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
+      <div style={{ maxWidth: `100px`, marginBottom: `1.45rem` }}>
+      <Image />
+    </div>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
