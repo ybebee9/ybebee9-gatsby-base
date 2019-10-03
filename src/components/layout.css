@@ -635,3 +635,8 @@ pre tt:after {
 .header-h1-01{
   padding-top: 1%;
 }
+
+/* 2019.10.03 ybebee9 add */
+.header-size{
+  height: 250px;
+}

@@ -5,6 +5,7 @@ import Image from "../components/image"
 
 const Header = ({ siteTitle }) => (
   <header
+    className = "header-size"
     style={{
       background: `#a28aff`,
       marginBottom: `1.45rem`,
