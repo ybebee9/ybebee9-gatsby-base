@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <h1>
-        {siteSubTitle}
+        site.siteMetadata.subtitle
       </h1>
     </div>
   </header>
