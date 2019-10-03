@@ -621,7 +621,12 @@ pre tt:after {
   }
 }
 
-/* 2019.10.03 ybebee9 Insert */
+/* 2019.10.03 ybebee9 add */
 .profile-img{
   border-radius: 50%; 
+}
+
+/* 2019.10.03 ybebee9 add */
+.header-content{
+  text-align: -webkit-center
 }
