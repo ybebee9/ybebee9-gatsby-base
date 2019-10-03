@@ -630,3 +630,8 @@ pre tt:after {
 .header-content{
   text-align: -webkit-center
 }
+
+/* 2019.10.03 ybebee9 add */
+.header-h1-01{
+  padding-top: 1%;
+}
