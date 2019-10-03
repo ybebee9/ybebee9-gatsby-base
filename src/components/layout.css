@@ -620,3 +620,8 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+/* 2019.10.03 ybebee9 Insert */
+.profile-img{
+  border-radius: 50%; 
+}
