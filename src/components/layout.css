@@ -651,4 +651,7 @@ pre tt:after {
   font-size: 1.3rem;
   padding-top: 1%;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  color: #252525;
+  font-weight: normal;
+  line-height: 1.3;
 }
