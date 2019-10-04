@@ -33,7 +33,11 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <h2 className="header-h2-01">
+        <Link
+          to="/"
+        >
           {data.site.siteMetadata.subtitle}
+        </Link>          
       </h2>
     </div>
   </header>
