@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <h2 className="header-h2-01" >
-          되냐
+          ybebee9@gmail.com
       </h2>
     </div>
   </header>
