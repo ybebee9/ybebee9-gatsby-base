@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <h2>
-          {subtitle} 
+          ybebee9@gmail.com 
       </h2>
     </div>
   </header>
