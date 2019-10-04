@@ -1,10 +1,11 @@
 /* 2019.10.04 ybebee9 add */
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+@import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Atomy-Bold.woff');
 
 html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
+  font-family: 'Atomy-bold'; 
   -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; 
 }
 body {
   margin: 0;
