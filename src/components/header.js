@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <div style={{ maxWidth: `100px`}}>
-      <Image className="profile-img"  />
+      <profileImage />
     </div>
       <h1 className="header-h1-01" style={{ margin: 0 }}>
         <Link

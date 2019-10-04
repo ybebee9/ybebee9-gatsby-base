@@ -29,4 +29,20 @@ const Image = () => {
   return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
+const profileImage = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      placeholderImage: file(relativePath: { eq: "myProfilePhoto.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 300, border-radius: 50%) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
+
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+}
+
 export default Image
