@@ -34,7 +34,7 @@ const profileImage = () => {
     query {
       placeholderImage: file(relativePath: { eq: "myProfilePhoto.jpeg" }) {
         childImageSharp {
-          fluid(maxWidth: 300, border-radius: 50%) {
+          fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -42,7 +42,7 @@ const profileImage = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img className="profile-img" fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default Image
