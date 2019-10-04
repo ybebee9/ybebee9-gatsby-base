@@ -633,10 +633,16 @@ pre tt:after {
 
 /* 2019.10.03 ybebee9 add */
 .header-h1-01{
-  padding-top: 3%;
+  padding-top: 2%;
 }
 
 /* 2019.10.03 ybebee9 add */
 .header-size{
   height: 250px;
+}
+
+/* 2019.10.04 ybebee9 add */ 
+.header-h2-01{
+  font-size: 1.3rem;
+  padding-top: 1%;
 }
